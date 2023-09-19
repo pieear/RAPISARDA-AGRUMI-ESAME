@@ -1,0 +1,88 @@
+/*VISUALIZZAZIONE MOBILE VERTICALE*/
+@media (max-width: 500px)
+{
+    body {
+        background-color: #fff;
+        margin: 0;
+        height: auto;        }
+
+        header {
+            background-color: white;
+            padding: 5px 15px;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            width: auto;
+            height: 50px;
+            position: fixed;
+            width: 100%;
+        }
+
+        header h1{
+            color:#184108;
+            font-family: 'Molle';
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            text-align: center;
+            text-decoration: none;
+        
+        }
+
+        header img {
+margin-left: 240px;   
+margin-top: 5px;
+     }
+        
+        nav ul {
+            display: none;
+        }
+        
+        
+        nav a {
+            display: none;
+
+        }
+        
+        div#menu li ul{
+            display: none;
+        }
+        
+        div#menu a{
+            display: none;
+
+        }
+        
+        div#menu li:hover ul{
+            display: none;
+        }
+
+    }
+
+div.card1 {
+    margin: 0;
+    padding: 0;
+width: 500px;
+height: max-content;
+background-color: #184108;
+}
+
+div.testo {
+    display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 40px;
+padding-top: 230px;
+padding-bottom: 270px;
+color: #FFF;
+font-family: 'Inter';
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+a {
+color: #FFF;
+text-decoration: none;}
